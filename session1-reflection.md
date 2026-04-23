@@ -1,12 +1,12 @@
 # Session 1 Reflection
 
-## 1. What is multi-tenancy and why does it mean Apex has governor limits?
+## 1. What is multi-tenancy and why does it mean Apex has governor limits??
 
 Multi-tenancy in Salesforce means that multiple customers (tenants) share the same infrastructure, including servers, databases, and resources. Because all organizations run on the same platform, Salesforce must ensure that no single tenant consumes excessive resources. This is why Apex has governor limits, which restrict things like CPU time, number of queries, and records processed. These limits maintain performance, fairness, and stability across all users on the platform.
 
 ---
 
-## 2. What is the difference between declarative and programmatic customisation? Give one real example of each.
+## 2. What is the difference between declarative and programmatic customisation?? Give one real example of each.
 
 Declarative customization involves using point-and-click tools in Salesforce to build features without writing code, while programmatic customization involves writing code such as Apex or Lightning Web Components. Declarative tools include Flow, Process Builder, and validation rules. A real example of declarative customization is creating a validation rule to ensure a phone field is not blank. A programmatic example is writing an Apex trigger to automatically update related records when a new record is created.
 
